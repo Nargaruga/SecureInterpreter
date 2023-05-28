@@ -1,0 +1,4 @@
+(executable
+ (public_name secure_interpreter)
+ (name main)
+ (libraries secure_interpreter_lib))

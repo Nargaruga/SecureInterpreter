@@ -1,0 +1,4 @@
+(test
+ (name tests)
+ (modules tests)
+ (libraries ounit2 secure_interpreter_lib))

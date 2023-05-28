@@ -1,0 +1,8 @@
+(library
+ (name secure_interpreter_lib)
+ (modules ast env parser lexer interpreter))
+
+(menhir
+ (modules parser))
+
+(ocamllex lexer)
